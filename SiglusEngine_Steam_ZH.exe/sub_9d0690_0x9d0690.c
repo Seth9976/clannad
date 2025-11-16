@@ -1,0 +1,5 @@
+// 函数: sub_9d0690
+// 地址: 0x9d0690
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+return sub_702710(*(arg1 - 0x10) + 0x524) __tailcall

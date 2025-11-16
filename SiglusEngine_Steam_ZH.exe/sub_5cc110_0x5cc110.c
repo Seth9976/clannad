@@ -1,0 +1,14 @@
+// 函数: sub_5cc110
+// 地址: 0x5cc110
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t* result = *arg1
+
+if (result != 0)
+    result -= 8
+    
+    if (*result == 0xdddd)
+        result = _free(result)
+
+*arg1 = 0
+return result

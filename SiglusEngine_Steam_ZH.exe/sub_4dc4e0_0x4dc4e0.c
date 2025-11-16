@@ -1,0 +1,36 @@
+// 函数: sub_4dc4e0
+// 地址: 0x4dc4e0
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+uint64_t st1 = zx.q(data_b5b100)
+uint64_t st3 = zx.q(data_b5b098)
+int64_t temp0 = __pfmul_mmxq_mmxq(zx.q(data_b5b0fc), arg1)
+__pfcmpge_mmxq_mmxq(arg1, st1)
+int64_t st2 = zx.q(data_b5b104)
+st3 = (st3 & arg1) | zx.q(data_b5b0ac)
+uint64_t st7 = zx.q(data_b5b108)
+int64_t temp0_2 = __pfadd_mmxq_mmxq(temp0, st3)
+st1 = zx.q(data_b5b10c)
+int64_t temp0_3 = __pf2id_mmxq_mmxq(temp0_2, temp0_2)
+__pfcmpge_mmxq_mmxq(arg1, st2)
+int64_t temp0_5 = __pi2fd_mmxq_mmxq(st3, temp0_3)
+int64_t temp0_6 = __pfmul_mmxq_mmxq(st7, temp0_5)
+int64_t temp0_7 = __pfmul_mmxq_mmxq(st1, temp0_5)
+st3 = zx.q(data_b5b0c4)
+int64_t temp0_8 = __pfsub_mmxq_mmxq(arg1, temp0_6)
+st7 = zx.q(data_b5b0c0)
+int64_t temp0_9 = __pfsub_mmxq_mmxq(temp0_8, temp0_7)
+int64_t temp0_10 = __pfmul_mmxq_mmxq(temp0_9, temp0_9)
+int64_t temp0_11 = __pfadd_mmxq_mmxq(temp0_10, st3)
+int64_t temp0_14 = __pfmul_mmxq_mmxq(
+    __pfadd_mmxq_mmxq(__pfmul_mmxq_mmxq(temp0_10, st7), zx.q(data_b5b0bc)), temp0_9)
+int64_t temp0_15 = __pfsub_mmxq_mmxq(temp0_11, temp0_14)
+int64_t temp0_16 = __pfrcp_mmxq_mmxq(temp0_9, temp0_15)
+int64_t temp0_17 = __pfrcpit1_mmxq_mmxq(temp0_15, temp0_16)
+int64_t temp0_18 = __pfadd_mmxq_mmxq(temp0_14, temp0_14)
+st3 = zx.q(data_b5b0a8)
+int64_t temp0_19 = __pfrcpit2_mmxq_mmxq(temp0_17, temp0_16)
+uint64_t st4 = _m_pslldi(temp0_3, 0x17)
+int64_t temp0_21 = __pfmul_mmxq_mmxq(temp0_18, temp0_19)
+data_b5b148
+_m_paddd(__pfadd_mmxq_mmxq(temp0_21, st3), st4)

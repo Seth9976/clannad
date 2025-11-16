@@ -1,0 +1,27 @@
+// 函数: sub_55eb20
+// 地址: 0x55eb20
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t var_8 = 0xffffffff
+int32_t (* var_c)(void* arg1) = sub_9b14a8
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+int32_t __saved_ebp
+int32_t eax_2 = __security_cookie ^ &__saved_ebp
+int32_t var_34 = eax_2
+fsbase->NtTib.ExceptionList = &ExceptionList
+int32_t var_18 = 7
+int32_t var_1c = 0
+int16_t var_2c = 0
+sub_52e720(&var_2c, 0xad8e4c, 0x15)
+int32_t var_8_1 = 0
+sub_684160(data_bac424, 2, &var_2c)
+
+if (var_18 u>= 8)
+    j__free(var_2c.d)
+
+char* result
+result.b = 1
+fsbase->NtTib.ExceptionList = ExceptionList
+sub_745f2b(eax_2 ^ &__saved_ebp)
+return result

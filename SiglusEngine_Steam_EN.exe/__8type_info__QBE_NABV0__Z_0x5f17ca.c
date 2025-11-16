@@ -1,0 +1,7 @@
+// 函数: ??8type_info@@QBE_NABV0@@Z
+// 地址: 0x5f17ca
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t eax_3 = _strcmp(arg2 + 9, arg1 + 9)
+int32_t eax_4 = neg.d(eax_3)
+return sbb.d(eax_4, eax_4, eax_3 != 0) + 1

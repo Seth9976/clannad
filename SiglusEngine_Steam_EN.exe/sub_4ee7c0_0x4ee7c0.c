@@ -1,0 +1,38 @@
+// 函数: sub_4ee7c0
+// 地址: 0x4ee7c0
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t eax
+
+if (arg1 == 0)
+    char* var_1c_1
+    HWND eax_2
+    
+    if (arg2 != 1)
+        if (data_702fc0 != 0)
+            eax_2 = sub_55f1e0(
+                sub_55ef70(eax, data_72d6ac, data_719b6c, &data_61eaac, &data_61ec18), data_72d6ac, 
+                data_719b6c, &data_61eaac, &data_61ec18)
+            var_1c_1 = &data_61ec18
+        label_4ee911:
+            sub_55f390(eax_2, data_72d6ac, data_719b6c, &data_61eaac, var_1c_1)
+            sub_4a1e40(3)
+    else if (data_702fc0 != 0)
+        eax_2 = sub_55f1e0(sub_55ef70(eax, data_72d6ac, data_719b6c, &data_61eaac, &data_61ebd0), 
+            data_72d6ac, data_719b6c, &data_61eaac, &data_61ebd0)
+        var_1c_1 = &data_61ebd0
+        goto label_4ee911
+else if (arg1 == 1)
+    if (arg2 != 1)
+        if (data_702fc0 != 0)
+            sub_55f390(
+                sub_55f1e0(sub_55ef70(eax, data_72d6ac, data_719b6c, &data_61eac0, &data_61ec18), 
+                    data_72d6ac, data_719b6c, &data_61eac0, &data_61ec18), 
+                data_72d6ac, data_719b6c, &data_61eac0, &data_61ec18)
+            sub_4a1e40(3)
+    else if (data_702fc0 != arg1 - 1)
+        sub_55f390(
+            sub_55f1e0(sub_55ef70(eax, data_72d6ac, data_719b6c, &data_61eac0, &data_61ebd0), 
+                data_72d6ac, data_719b6c, &data_61eac0, &data_61ebd0), 
+            data_72d6ac, data_719b6c, &data_61eac0, &data_61ebd0)
+        sub_4a1e40(3)

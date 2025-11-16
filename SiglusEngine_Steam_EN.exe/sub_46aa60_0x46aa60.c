@@ -1,0 +1,44 @@
+// 函数: sub_46aa60
+// 地址: 0x46aa60
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t edi = arg2
+int32_t esi = arg3
+
+if (esi s> edi)
+    arg1 = esi
+    esi = edi
+    edi = arg1
+
+if (esi s< 0)
+    return 
+
+int32_t ecx = data_7031bc
+
+if (edi s>= ecx)
+    return 
+
+int32_t i_1 = edi - esi + 1
+
+if (i_1 s<= 0)
+    return 
+
+char* ebx_2 = (arg4 + (esi << 1)) * 0x650 + 0x72d80f
+int32_t i
+
+do
+    if (esi s>= 0 && esi s< ecx)
+        int32_t eax_8 = zx.d(ebx_2[0xffffffff]) - arg5
+        sub_466780(eax_8, arg9, &ebx_2[0x3b9], arg10, arg11, 0x6a, 0, eax_8, zx.d(*ebx_2) - arg6, 
+            zx.d(ebx_2[1]) - arg7, zx.d(ebx_2[2]) - arg8)
+        ecx = data_7031bc
+        ebx_2[0xffffffff] = arg5.b
+        *ebx_2 = arg6.b
+        ebx_2[1] = arg7.b
+        ebx_2[2] = arg8.b
+    
+    esi += 1
+    ebx_2 = &ebx_2[0xca0]
+    i = i_1
+    i_1 -= 1
+while (i != 1)

@@ -1,0 +1,175 @@
+// 函数: sub_73ba40
+// 地址: 0x73ba40
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t __saved_ebp
+int32_t eax_1 = __security_cookie ^ &__saved_ebp
+int32_t eax_6 = *(arg1 + 0x12c) + 0x80
+int16_t* edi_1 = arg3 + 0x20
+int16_t* var_22c = edi_1
+int32_t i_3 = 8
+void var_1e8
+void* eax_8 = &var_1e8
+void* edx_1 = *(arg2 + 0x54) + 0x40
+void* var_21c = edx_1
+int32_t i
+
+do
+    int32_t ecx_2 = sx.d(edi_1[0x10]) * *(edx_1 + 0x40)
+    int32_t edx_2 = ecx_2 * 0x29cf
+    int32_t ecx_3 = ecx_2 * 0x1151
+    int32_t esi_4 = ((sx.d(edi_1[-0x10]) * *(edx_1 - 0x40)) << 0xd) + 0x400
+    int32_t ebx_1 = edx_2 + esi_4
+    int32_t ebx_3 = esi_4 - edx_2
+    int32_t edx_3 = ecx_3 + esi_4
+    int32_t esi_5 = esi_4 - ecx_3
+    int32_t esi_7 = sx.d(*edi_1) * *var_21c
+    int32_t ebx_5 = sx.d(edi_1[0x20]) * *(var_21c + 0x80)
+    int32_t ecx_5 = esi_7 - ebx_5
+    int32_t edx_5 = ecx_5 * 0x8d4
+    int32_t ecx_6 = ecx_5 * 0x2c63
+    int32_t edi_3 = esi_7 * 0x1ccd + edx_5
+    int32_t edx_7 = ebx_5 * 0x5203 + ecx_6
+    int32_t esi_9 = ecx_6 - esi_7 * 0x133e
+    int32_t ebx_7 = edx_5 - ebx_5 * 0x1050
+    int32_t var_220_2 = ebx_1 - edx_7
+    int32_t ecx_10 = ebx_1 + edx_7
+    int32_t ecx_11 = edx_3 + edi_3
+    int32_t edx_9 = edx_3 - edi_3
+    int32_t ecx_12 = esi_5 + esi_9
+    int32_t edx_11 = esi_5 - esi_9
+    int32_t ecx_13 = ebx_7 + ebx_3
+    int32_t edx_13 = ebx_3 - ebx_7
+    int32_t esi_11 = sx.d(var_22c[-8]) * *(var_21c - 0x20)
+    int32_t ecx_15 = sx.d(var_22c[0x18]) * *(var_21c + 0x60)
+    int32_t ebx_9 = sx.d(var_22c[8]) * *(var_21c + 0x20)
+    int32_t edi_6 = sx.d(var_22c[0x28]) * *(var_21c + 0xa0)
+    int32_t edx_16 = ecx_15 + esi_11
+    int32_t ecx_17 = (ebx_9 + esi_11) * 0x2b4e
+    int32_t ecx_18 = edx_16 * 0x27e9
+    int32_t ecx_20 = (edi_6 + esi_11) * 0x22fc
+    int32_t ecx_23 = (esi_11 - edi_6) * 0x1cb6
+    int32_t ecx_24 = edx_16 * 0x1555
+    int32_t ecx_27 = (esi_11 - ebx_9) * 0xd23
+    int32_t edi_10 = ecx_20 - esi_11 * 0x492a + ecx_18 + ecx_17
+    int32_t esi_15 = ecx_27 - esi_11 * 0x3abe + ecx_24 + ecx_23
+    int32_t edx_17 = (ecx_15 + ebx_9) * 0x470
+    int32_t esi_18 = (ecx_15 - ebx_9) * 0x2d09
+    int32_t ebx_10 = ebx_9 + edi_6
+    int32_t edx_21 = ebx_10 * 0xffffd817
+    int32_t esi_19 = ebx_10 * 0xffffeaab
+    int32_t var_210_3 = ecx_27 + ebx_9 * 0x3f1a + esi_18 + edx_21
+    int32_t var_214_3 = ecx_17 + ebx_9 * 0x24d + edx_17 + esi_19
+    int32_t edx_22 = (ecx_15 + edi_6) * 0xffffd4b2
+    int32_t var_218_3 = ecx_18 + edx_17 - ecx_15 * 0x2406 + edx_22
+    int32_t esi_21 = ecx_20 + edi_6 * 0x2218 + edx_22 + esi_19
+    int32_t ecx_44 = (edi_6 - ecx_15) * 0xd23
+    int32_t var_20c_3 = ecx_24 + esi_18 - ecx_15 * 0x1886 + ecx_44
+    int32_t ebx_14 = ecx_23 + edi_6 * 0x6485 + edx_21 + ecx_44
+    *(eax_8 + 0x1c0) = (ecx_10 - edi_10) s>> 0xb
+    *(eax_8 - 0x20) = (ecx_10 + edi_10) s>> 0xb
+    *(eax_8 + 0x1a0) = (ecx_11 - var_214_3) s>> 0xb
+    *eax_8 = (ecx_11 + var_214_3) s>> 0xb
+    *(eax_8 + 0x20) = (ecx_12 + var_218_3) s>> 0xb
+    eax_8 += 4
+    *(eax_8 + 0x17c) = (ecx_12 - var_218_3) s>> 0xb
+    edi_1 = &var_22c[1]
+    *(eax_8 + 0x15c) = (ecx_13 - esi_21) s>> 0xb
+    *(eax_8 + 0x3c) = (ecx_13 + esi_21) s>> 0xb
+    var_22c = edi_1
+    *(eax_8 + 0x13c) = (edx_13 - ebx_14) s>> 0xb
+    *(eax_8 + 0x5c) = (edx_13 + ebx_14) s>> 0xb
+    *(eax_8 + 0x11c) = (edx_11 - var_20c_3) s>> 0xb
+    *(eax_8 + 0x7c) = (edx_11 + var_20c_3) s>> 0xb
+    *(eax_8 + 0xfc) = (edx_9 - var_210_3) s>> 0xb
+    *(eax_8 + 0x9c) = (edx_9 + var_210_3) s>> 0xb
+    edx_1 = var_21c + 4
+    i = i_3
+    i_3 -= 1
+    *(eax_8 + 0xbc) = (var_220_2 + esi_15) s>> 0xb
+    *(eax_8 + 0xdc) = (var_220_2 - esi_15) s>> 0xb
+    var_21c = edx_1
+while (i != 1)
+int32_t i_1 = 0
+void var_200
+void* esi_22 = &var_200
+int32_t i_2 = 0
+void* var_220_3 = &var_200
+
+do
+    int32_t ebx_26 = (*(esi_22 - 8) + 0x10) << 0xd
+    char* eax_10 = *(arg4 + (i_1 << 2)) + arg5
+    int32_t ecx_62 = *(esi_22 + 8) * 0x29cf
+    int32_t eax_11 = *(esi_22 + 8) * 0x1151
+    int32_t edx_38 = ecx_62 + ebx_26
+    int32_t edx_40 = ebx_26 - ecx_62
+    int32_t ecx_63 = eax_11 + ebx_26
+    int32_t ebx_27 = ebx_26 - eax_11
+    int32_t ecx_64 = *esi_22
+    int32_t esi_23 = *(esi_22 + 0x10)
+    int32_t eax_13 = ecx_64 - esi_23
+    int32_t edx_41 = eax_13 * 0x8d4
+    int32_t ebx_28 = eax_13 * 0x2c63
+    int32_t edi_19 = ecx_64 * 0x1ccd + edx_41
+    int32_t edx_43 = esi_23 * 0x5203 + ebx_28
+    int32_t ebx_29 = ebx_28 - ecx_64 * 0x133e
+    int32_t ecx_66 = edx_41 - esi_23 * 0x1050
+    int32_t eax_16 = edx_38 + edx_43
+    int32_t esi_25 = edx_38 - edx_43
+    int32_t eax_17 = ecx_63 + edi_19
+    int32_t edx_45 = ecx_63 - edi_19
+    int32_t eax_18 = ebx_27 + ebx_29
+    int32_t edx_47 = ebx_27 - ebx_29
+    int32_t eax_19 = ecx_66 + edx_40
+    int32_t edx_49 = edx_40 - ecx_66
+    int32_t edx_50 = *(var_220_3 - 4)
+    int32_t esi_26 = *(var_220_3 + 4)
+    int32_t ebx_30 = *(var_220_3 + 0xc)
+    int32_t edi_20 = *(var_220_3 + 0x14)
+    int32_t eax_22 = (esi_26 + edx_50) * 0x2b4e
+    int32_t ecx_67 = ebx_30 + edx_50
+    int32_t eax_23 = ecx_67 * 0x27e9
+    int32_t eax_25 = (edi_20 + edx_50) * 0x22fc
+    int32_t eax_28 = (edx_50 - edi_20) * 0x1cb6
+    int32_t eax_29 = ecx_67 * 0x1555
+    int32_t eax_32 = (edx_50 - esi_26) * 0xd23
+    int32_t edi_24 = eax_25 - edx_50 * 0x492a + eax_23 + eax_22
+    int32_t ecx_68 = (ebx_30 + esi_26) * 0x470
+    int32_t edx_54 = eax_32 - edx_50 * 0x3abe + eax_29 + eax_28
+    int32_t edx_55 = (ebx_30 - esi_26) * 0x2d09
+    int32_t esi_27 = esi_26 + *(var_220_3 + 0x14)
+    int32_t edx_56 = esi_27 * 0xffffeaab
+    int32_t ecx_72 = esi_27 * 0xffffd817
+    int32_t esi_28 = *(var_220_3 + 0x14)
+    int32_t var_210_6 = eax_22 + esi_26 * 0x24d + ecx_68 + edx_56
+    int32_t var_21c_3 = eax_32 + esi_26 * 0x3f1a + edx_55 + ecx_72
+    int32_t ecx_73 = (esi_28 + ebx_30) * 0xffffd4b2
+    int32_t var_20c_6 = eax_23 + ecx_68 - ebx_30 * 0x2406 + ecx_73
+    int32_t edx_58 = eax_25 + esi_28 * 0x2218 + ecx_73 + edx_56
+    int32_t eax_51 = (esi_28 - ebx_30) * 0xd23
+    int32_t var_218_6 = eax_28 + esi_28 * 0x6485 + ecx_72 + eax_51
+    int32_t var_214_6 = eax_29 + edx_55 - ebx_30 * 0x1886 + eax_51
+    *eax_10 = ((eax_16 + edi_24) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xf] = ((eax_16 - edi_24) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[1] = ((eax_17 + var_210_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xe] = ((eax_17 - var_210_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[2] = ((eax_18 + var_20c_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xd] = ((eax_18 - var_20c_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[3] = ((eax_19 + edx_58) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xc] = ((eax_19 - edx_58) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[4] = ((edx_49 + var_218_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xb] = ((edx_49 - var_218_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[5] = ((edx_47 + var_214_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[0xa] = ((edx_47 - var_214_6) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[6] = ((edx_45 + var_21c_3) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[9] = ((edx_45 - var_21c_3) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[7] = ((esi_25 + edx_54) s>> 0x12 & 0x3ff)[eax_6]
+    eax_10[8] = ((esi_25 - edx_54) s>> 0x12 & 0x3ff)[eax_6]
+    esi_22 = var_220_3 + 0x20
+    i_1 = i_2 + 1
+    var_220_3 = esi_22
+    i_2 = i_1
+while (i_1 s< 0x10)
+
+sub_745f2b(eax_1 ^ &__saved_ebp)
+return i_1

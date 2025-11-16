@@ -1,0 +1,8 @@
+// 函数: sub_460651
+// 地址: 0x460651
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t result = arg1
+void arg_4
+sub_481f40(arg1 + 0x30, &arg_4, 2, &result)
+return result

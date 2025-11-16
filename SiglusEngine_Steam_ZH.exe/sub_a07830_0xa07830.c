@@ -1,0 +1,14 @@
+// 函数: sub_a07830
+// 地址: 0xa07830
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t var_8 = arg1
+
+if (data_b693a0 u>= 8)
+    int16_t* var_10_1 = &data_b6938c
+    j__free(data_b6938c.d)
+
+data_b693a0 = 7
+data_b6939c = 0
+data_b6938c = 0
+return 0

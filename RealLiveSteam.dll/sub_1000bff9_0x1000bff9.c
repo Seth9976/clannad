@@ -1,0 +1,36 @@
+// 函数: sub_1000bff9
+// 地址: 0x1000bff9
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\RealLiveSteam.dll
+
+int32_t __saved_ebp
+int32_t eax_1 = __security_cookie ^ &__saved_ebp
+int32_t var_34
+void arg_4
+sub_1000bf31(&var_34, &arg_4)
+int16_t var_24
+int16_t* var_44_1 = &var_24
+char var_48_1 = 0
+int32_t var_4c = 0x11
+void* var_58 = var_34
+void* var_54
+void** edi = &var_54
+void var_30
+void* esi = &var_30
+*edi = *esi
+edi[1].w = *(esi + 4)
+int16_t var_50
+arg1[2] = sub_1000d77d(var_58, var_54, var_50, var_4c, var_48_1, var_44_1)
+char var_22
+*arg1 = sx.d(var_22)
+arg1[1] = sx.d(var_24)
+void var_20
+void* var_5c = &var_20
+
+if (_strcpy_s(arg2, arg3, var_5c) != 0)
+    __builtin_memset(&var_54, 0, 0x14)
+    __invoke_watson()
+    noreturn
+
+arg1[3] = arg2
+sub_10002604(eax_1 ^ &__saved_ebp)
+return arg1

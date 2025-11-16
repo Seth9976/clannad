@@ -1,0 +1,64 @@
+// 函数: sub_488297
+// 地址: 0x488297
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+float xmm0_1[0x4] = *arg3 | arg3[1] << 0x40
+float xmm1_1[0x4] = arg3[2] | arg3[3] << 0x40
+float xmm2_1[0x4] = arg3[4] | arg3[5] << 0x40
+float xmm3_1[0x4] = arg3[6] | arg3[7] << 0x40
+float xmm4[0x4] = *arg2
+float xmm5[0x4] = *(arg2 + 4)
+float xmm6[0x4] = *(arg2 + 8)
+float xmm7[0x4] = *(arg2 + 0xc)
+float xmm4_1[0x4] = _mm_shuffle_ps(xmm4, xmm4, 0)
+float xmm5_1[0x4] = _mm_shuffle_ps(xmm5, xmm5, 0)
+float xmm6_1[0x4] = _mm_shuffle_ps(xmm6, xmm6, 0)
+float xmm7_1[0x4] = _mm_shuffle_ps(xmm7, xmm7, 0)
+float xmm4_2[0x4] = _mm_mul_ps(xmm4_1, xmm0_1)
+float xmm5_2[0x4] = _mm_mul_ps(xmm5_1, xmm1_1)
+float xmm6_2[0x4] = _mm_mul_ps(xmm6_1, xmm2_1)
+float xmm7_2[0x4] = _mm_mul_ps(xmm7_1, xmm3_1)
+float xmm4_4[0x4] = _mm_add_ps(_mm_add_ps(xmm4_2, xmm5_2), _mm_add_ps(xmm6_2, xmm7_2))
+float xmm5_3[0x4] = arg2[1].d
+float xmm6_4[0x4] = *(arg2 + 0x14)
+float xmm7_3[0x4] = *(arg2 + 0x18)
+float xmm5_4[0x4] = _mm_shuffle_ps(xmm5_3, xmm5_3, 0)
+float xmm6_5[0x4] = _mm_shuffle_ps(xmm6_4, xmm6_4, 0)
+float xmm7_4[0x4] = _mm_shuffle_ps(xmm7_3, xmm7_3, 0)
+float xmm5_5[0x4] = _mm_mul_ps(xmm5_4, xmm0_1)
+float xmm6_6[0x4] = _mm_mul_ps(xmm6_5, xmm1_1)
+float xmm7_5[0x4] = _mm_mul_ps(xmm7_4, xmm2_1)
+float xmm5_7[0x4] = _mm_add_ps(_mm_add_ps(xmm5_5, xmm6_6), xmm7_5)
+float xmm6_7[0x4] = *(arg2 + 0x1c)
+int32_t xmm5_8[0x4] = _mm_add_ps(xmm5_7, _mm_mul_ps(_mm_shuffle_ps(xmm6_7, xmm6_7, 0), xmm3_1))
+float xmm6_10[0x4] = arg2[2].d
+float xmm7_6[0x4] = *(arg2 + 0x24)
+float xmm6_11[0x4] = _mm_shuffle_ps(xmm6_10, xmm6_10, 0)
+float xmm7_7[0x4] = _mm_shuffle_ps(xmm7_6, xmm7_6, 0)
+float xmm6_13[0x4] = _mm_add_ps(_mm_mul_ps(xmm6_11, xmm0_1), _mm_mul_ps(xmm7_7, xmm1_1))
+float xmm7_9[0x4] = *(arg2 + 0x28)
+float xmm6_14[0x4] = _mm_add_ps(xmm6_13, _mm_mul_ps(_mm_shuffle_ps(xmm7_9, xmm7_9, 0), xmm2_1))
+float xmm7_12[0x4] = *(arg2 + 0x2c)
+float xmm6_15[0x4] = _mm_add_ps(xmm6_14, _mm_mul_ps(_mm_shuffle_ps(xmm7_12, xmm7_12, 0), xmm3_1))
+float xmm7_15[0x4] = arg2[3].d
+float xmm0_2[0x4] = _mm_mul_ps(xmm0_1, _mm_shuffle_ps(xmm7_15, xmm7_15, 0))
+float xmm7_17[0x4] = *(arg2 + 0x34)
+float xmm1_2[0x4] = _mm_mul_ps(xmm1_1, _mm_shuffle_ps(xmm7_17, xmm7_17, 0))
+float xmm7_19[0x4] = *(arg2 + 0x38)
+float xmm2_2[0x4] = _mm_mul_ps(xmm2_1, _mm_shuffle_ps(xmm7_19, xmm7_19, 0))
+float xmm7_21[0x4] = *(arg2 + 0x3c)
+float xmm3_2[0x4] = _mm_mul_ps(xmm3_1, _mm_shuffle_ps(xmm7_21, xmm7_21, 0))
+int32_t xmm0_4[0x4] = _mm_add_ps(_mm_add_ps(xmm0_2, xmm1_2), _mm_add_ps(xmm2_2, xmm3_2))
+int64_t xmm4_5 = _mm_unpacklo_ps(xmm4_4, xmm5_8)
+int64_t xmm6_16 = _mm_unpacklo_ps(xmm6_15, xmm0_4)
+int64_t xmm1_4 = _mm_unpackhi_ps(xmm4_4, xmm5_8)
+int64_t xmm2_5 = _mm_unpackhi_ps(xmm6_15, xmm0_4)
+*arg1 = xmm4_5
+arg1[1] = xmm6_16
+*(arg1 + 0x10) = arg1[2] | xmm4_5 << 0x40
+*(arg1 + 0x18) = arg1[3] | xmm6_16 << 0x40
+arg1[4] = xmm1_4
+arg1[5] = xmm2_5
+*(arg1 + 0x30) = arg1[6] | xmm1_4 << 0x40
+*(arg1 + 0x38) = arg1[7] | xmm2_5 << 0x40
+return arg1

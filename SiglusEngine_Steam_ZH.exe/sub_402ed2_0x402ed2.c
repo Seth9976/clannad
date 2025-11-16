@@ -1,0 +1,36 @@
+// 函数: sub_402ed2
+// 地址: 0x402ed2
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+float* eax = arg2
+long double x87_r7 = fconvert.t(2f)
+float var_8 = fconvert.s(fconvert.t(*eax) * x87_r7)
+arg2 = fconvert.s(fconvert.t(eax[1]) * x87_r7)
+long double x87_r7_1 = x87_r7 * fconvert.t(eax[2])
+long double x87_r6_5 = fconvert.t(var_8) * fconvert.t(eax[3])
+long double x87_r5_1 = fconvert.t(arg2) * fconvert.t(eax[3])
+long double x87_r4_1 = x87_r7_1 * fconvert.t(eax[3])
+float var_14 = fconvert.s(fconvert.t(var_8) * fconvert.t(*eax))
+float var_8_1 = fconvert.s(fconvert.t(arg2) * fconvert.t(*eax))
+float var_c = fconvert.s(x87_r7_1 * fconvert.t(*eax))
+float var_10 = fconvert.s(fconvert.t(arg2) * fconvert.t(eax[1]))
+arg2 = fconvert.s(x87_r7_1 * fconvert.t(eax[1]))
+long double x87_r3_11 = x87_r7_1 * fconvert.t(eax[2])
+*arg1 = fconvert.s(float.t(1) - fconvert.t(var_10) - x87_r3_11)
+*(arg1 i+ 4) = fconvert.s(fconvert.t(var_8_1) + x87_r4_1)
+*(arg1 i+ 8) = fconvert.s(fconvert.t(var_c) - x87_r5_1)
+*(arg1 i+ 0xc) = fconvert.s(float.t(0))
+*(arg1 i+ 0x10) = fconvert.s(fconvert.t(var_8_1) - x87_r4_1)
+long double x87_r2_11 = float.t(1) - fconvert.t(var_14)
+*(arg1 i+ 0x14) = fconvert.s(x87_r2_11 - x87_r3_11)
+*(arg1 i+ 0x18) = fconvert.s(fconvert.t(arg2) + x87_r6_5)
+*(arg1 i+ 0x1c) = fconvert.s(float.t(0))
+*(arg1 i+ 0x20) = fconvert.s(fconvert.t(var_c) + x87_r3_11)
+*(arg1 i+ 0x24) = fconvert.s(fconvert.t(arg2) - x87_r3_11)
+*(arg1 i+ 0x28) = fconvert.s(fconvert.t(fconvert.s(x87_r2_11)) - fconvert.t(var_10))
+*(arg1 i+ 0x2c) = fconvert.s(float.t(0))
+*(arg1 i+ 0x30) = fconvert.s(float.t(0))
+*(arg1 i+ 0x34) = fconvert.s(float.t(0))
+*(arg1 i+ 0x38) = fconvert.s(float.t(0))
+*(arg1 i+ 0x3c) = fconvert.s(float.t(1))
+return arg1

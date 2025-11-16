@@ -1,0 +1,6 @@
+// 函数: sub_4fe790
+// 地址: 0x4fe790
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+sub_52e720(&data_b6c8fc, 0xad751c, 7)
+return _atexit(sub_a14df0)

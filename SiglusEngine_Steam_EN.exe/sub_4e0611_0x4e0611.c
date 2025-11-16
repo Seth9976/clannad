@@ -1,0 +1,6 @@
+// 函数: sub_4e0611
+// 地址: 0x4e0611
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+arg1 -= 4
+return sub_4df5e0() __tailcall

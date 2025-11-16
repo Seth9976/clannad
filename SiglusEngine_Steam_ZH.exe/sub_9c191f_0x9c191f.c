@@ -1,0 +1,5 @@
+// 函数: sub_9c191f
+// 地址: 0x9c191f
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+return sub_638480(*(arg1 - 0x10) + 0x4b0f8) __tailcall

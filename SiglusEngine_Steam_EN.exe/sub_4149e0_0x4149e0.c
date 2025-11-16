@@ -1,0 +1,24 @@
+// 函数: sub_4149e0
+// 地址: 0x4149e0
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+__builtin_memset(&data_8c4ac0:8, 0xff, 0x28)
+data_8c4af0.d = 0
+__builtin_memset(&data_8c4af0:8, 0xff, 0x28)
+data_8c4b20.d = 0
+__builtin_memset(&data_8c4b20:8, 0xff, 0x28)
+data_8c4b50.d = 0
+__builtin_memset(&data_8c4b50:8, 0xff, 0x28)
+data_8c4b80.d = 0
+__builtin_memset(&data_8c4b80:8, 0xff, 0x28)
+data_8c4bb0.d = 0
+__builtin_memset(&data_8c4bb0:8, 0xff, 0x28)
+data_8c4be0.d = 0
+__builtin_memset(&data_8c4be0:8, 0xff, 0x28)
+data_8c4c10.d = 0
+__builtin_memset(&data_8c4c10:8, 0xff, 0x28)
+data_8c4c40.d = 0
+__builtin_memset(&data_8c4c40:8, 0xff, 0x28)
+data_8c4c70.d = 0
+__builtin_memset(&data_8c4c70:8, 0xff, 0x28)
+data_8c4ca0 = 0

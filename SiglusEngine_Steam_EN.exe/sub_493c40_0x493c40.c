@@ -1,0 +1,26 @@
+// 函数: sub_493c40
+// 地址: 0x493c40
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t* edx
+int32_t* esi = edx
+int32_t eax
+
+if (data_925224 != 0)
+    edx = &data_10861e4
+    eax = sub_490910(&data_925224, &data_10861e4)
+
+int32_t result = sub_490980(eax, edx, &data_925224, esi, arg1, arg2, arg3, arg4, arg5, arg6)
+
+if (data_925224 != 0)
+    if (result s<= 0)
+        data_10861ec = 0
+        data_1086200 = 0x64
+        return result
+    
+    data_10861ec = result
+    result = data_131310c
+    data_1086200 = 0
+    data_10861e8 = result
+
+return result

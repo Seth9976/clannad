@@ -1,0 +1,5 @@
+// 函数: sub_9c5802
+// 地址: 0x9c5802
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+return sub_53f510(arg1 - 0x934) __tailcall

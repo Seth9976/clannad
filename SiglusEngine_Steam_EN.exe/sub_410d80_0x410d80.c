@@ -1,0 +1,20 @@
+// 函数: sub_410d80
+// 地址: 0x410d80
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+data_63eccc = 0
+data_63ed34 = 0
+data_63ed9c = 0
+data_63ee04 = 0
+data_63ee6c = 0
+data_63ecd0 = 0
+data_63ed38 = 0
+data_63eda0 = 0
+data_63ee08 = 0
+data_63ee70 = 0
+__builtin_memset(&data_702fc4, 0, 0x24)
+data_63ecd4 = 0
+data_63ed3c = 0
+data_63eda4 = 0
+data_63ee0c = 0
+data_63ee74 = 0

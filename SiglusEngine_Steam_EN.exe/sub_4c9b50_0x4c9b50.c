@@ -1,0 +1,19 @@
+// 函数: sub_4c9b50
+// 地址: 0x4c9b50
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+data_20af208 = 0
+data_20af204 = 0xffffffff
+data_1cd536a = 0
+data_20af410 = 0
+data_20af414 = 0
+data_20af420 = 0
+data_20af628 = 0xffffffff
+data_1cd536b = 0
+data_20af62c = 0
+data_20af630 = 0
+data_20af638 = 0
+data_20af840 = 0xffffffff
+data_20a1b92 = 0
+data_20af844 = 0
+data_20af848 = 0

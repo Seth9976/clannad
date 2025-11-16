@@ -1,0 +1,20 @@
+// 函数: sub_41ee60
+// 地址: 0x41ee60
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+data_1357030 = 0
+data_1357034 = 0
+data_1357048 = 0
+data_135704c = 0
+data_1357060 = 0
+data_1357064 = 0
+data_1357078 = 0
+data_135707c = 0
+data_1357090 = 0
+data_1357094 = 0
+data_13570a8 = 0
+data_13570ac = 0
+data_13570c0 = 0
+data_13570c4 = 0
+data_13570d8 = 0
+data_13570dc = 0

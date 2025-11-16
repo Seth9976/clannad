@@ -1,0 +1,22 @@
+// 函数: sub_58fed0
+// 地址: 0x58fed0
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+data_1c45988 = 0
+data_1c4ce40 = 0
+data_1c45990 = 0
+data_1c4ce2c = 0
+data_1ccce64 = 0
+data_1c45538 = 0
+__builtin_memset(&data_1cd4328, 0, 0x24)
+data_1ccce6c = 0
+data_1c0550c = 0
+data_1c05504 = 0
+data_1c4597c = 0
+data_1c4ce30 = 0
+data_1c4553c = 0
+data_1c45530 = 0
+data_1c45974 = 0
+data_1c45998 = 0
+data_1ccce78 = 0
+data_1c4ce20 = 0

@@ -1,0 +1,14 @@
+// 函数: sub_9ed790
+// 地址: 0x9ed790
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t var_8 = arg1
+
+if (data_b62b78 u>= 8)
+    int16_t* var_10_1 = &data_b62b64
+    j__free(data_b62b64.d)
+
+data_b62b78 = 7
+data_b62b74 = 0
+data_b62b64 = 0
+return 0

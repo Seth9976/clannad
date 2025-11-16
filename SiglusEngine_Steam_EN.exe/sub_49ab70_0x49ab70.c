@@ -1,0 +1,20 @@
+// 函数: sub_49ab70
+// 地址: 0x49ab70
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+data_8d02c4 = 1
+data_8d02bc = 0
+data_8d5bc4 = 1
+data_8d5bbc = 0
+data_8db4c4 = 1
+data_8db4bc = 0
+data_8e0dc4 = 1
+data_8e0dbc = 0
+data_8e66c4 = 1
+data_8e66bc = 0
+data_8ebfc4 = 1
+data_8ebfbc = 0
+data_8f18c4 = 1
+data_8f18bc = 0
+data_8f71c4 = 1
+data_8f71bc = 0

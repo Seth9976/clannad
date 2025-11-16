@@ -1,0 +1,42 @@
+// 函数: sub_475bd0
+// 地址: 0x475bd0
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+int32_t __saved_ebp
+int32_t eax_1 = __security_cookie ^ &__saved_ebp
+int32_t result = *(arg2 + 0x274)
+int32_t result_1 = result
+
+if (result s> 0)
+    int32_t* esi_1 = *(arg2 + 0x27c) + 0x4c
+    int32_t i
+    
+    do
+        if (esi_1[0x1dc] s>= 0)
+            int32_t var_30_1 = 0
+            int32_t var_34_1 = 0xff
+            int32_t var_38_1 = 0
+            int32_t var_3c_1 = 0
+            int32_t var_40_1 = 0
+            int32_t ecx_1 = *esi_1
+            int32_t edi_1 = esi_1[3]
+            int32_t ebx_1 = esi_1[2]
+            int32_t eax_2 = esi_1[1]
+            sub_58bcc0(eax_2, data_702fec, data_702fe8, data_702ff0, ecx_1, eax_2, ebx_1, edi_1, 
+                data_702ff4, (data_702ff8).b, data_702ffc, data_703000, ecx_1, 0, 0, 0, 0, 0, 0, 0, 
+                0, 0, 0xff, 0, 0, 0, 0, 0)
+            int32_t var_14 = 0xffffff
+            int32_t var_10_1 = 0
+            int32_t var_c_1 = 0xffffff00
+            sub_4759c0(&var_14, eax_2, ecx_1, ebx_1, edi_1, &var_14)
+            result = result_1
+            data_1b14a24 = 1
+        
+        esi_1 = &esi_1[0x1f6]
+        i = result
+        result -= 1
+        result_1 = result
+    while (i != 1)
+
+sub_5f02dd(eax_1 ^ &__saved_ebp)
+return result

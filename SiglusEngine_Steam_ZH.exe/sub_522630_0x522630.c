@@ -1,0 +1,6 @@
+// 函数: sub_522630
+// 地址: 0x522630
+// 来自: E:\Download\Various Files\CLANNAD HD Edition\CLANNAD\SiglusEngine_Steam.exe
+
+sub_52e720(&data_b87704, 0xad78b4, 9)
+return _atexit(sub_a80930)

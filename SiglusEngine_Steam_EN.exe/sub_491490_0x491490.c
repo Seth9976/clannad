@@ -1,0 +1,172 @@
+// 函数: sub_491490
+// 地址: 0x491490
+// 来自: E:\Download\CYZD_GALGAME_PACKAGE\CLANNAD\SiglusEngine_Steam.exe
+
+void* i = &data_10859dc
+data_1ff4cc8 = data_131310c
+void* result = &data_924930
+
+do
+    __builtin_memset(result - 0x2c, 0, 0x20)
+    *(result - 8) = 0
+    *(result - 4) = 0
+    *result = 0
+    *(result + 4) = 0
+    *(result + 8) = 0
+    *(result + 0xc) = 0
+    *(result + 0x10) = 0
+    *(result + 0x14) = 0
+    *(i - 0x58) = 0
+    *(i - 0x50) = 0
+    *(i - 0x4c) = 0
+    *(i - 0x44) = 0
+    __builtin_memset(result + 0x20, 0, 0x1c)
+    *(i - 0x78) = 0
+    *(i - 0x70) = 0
+    *(i - 0x68) = 0
+    *(i - 0x60) = 0
+    *(i - 0x40) = 0
+    *(i - 0x3c) = 0
+    *(i - 0x38) = 0
+    *(result + 0x40) = 0
+    *(result + 0x44) = 0
+    *(result + 0x48) = 0
+    *(i - 0x14) = 0
+    *(i - 0xc) = 0
+    *(result + 0x4c) = 0
+    *(result + 0x50) = 0
+    *(result + 0x54) = 0
+    *(i - 8) = 0
+    *i = 0
+    *(result + 0x58) = 0
+    *(result + 0x5c) = 0
+    *(i - 0x34) = 0
+    *(i - 0x2c) = 0
+    *(i - 0x24) = 0
+    *(i - 0x1c) = 0
+    *(i + 4) = 0
+    *(i + 8) = 0
+    *(i + 0xc) = 0
+    __builtin_memset(result + 0x68, 0, 0x1c)
+    *(i + 0x30) = 0
+    *(i + 0x38) = 0
+    *(result + 0x88) = 0
+    *(result + 0x8c) = 0
+    *(result + 0x90) = 0
+    *(i + 0x3c) = 0
+    *(i + 0x44) = 0
+    *(result + 0x94) = 0
+    *(result + 0x98) = 0
+    *(result + 0x9c) = 0
+    *(result + 0xa0) = 0
+    *(result + 0xa4) = 0
+    *(i + 0x10) = 0
+    *(i + 0x18) = 0
+    *(i + 0x20) = 0
+    *(i + 0x28) = 0
+    *(i + 0x48) = 0
+    *(i + 0x4c) = 0
+    *(i + 0x50) = 0
+    __builtin_memset(result + 0xb0, 0, 0x1c)
+    *(result + 0xd0) = 0
+    *(result + 0xd4) = 0
+    *(result + 0xd8) = 0
+    *(result + 0xdc) = 0
+    *(result + 0xe0) = 0
+    *(result + 0xe4) = 0
+    *(result + 0xe8) = 0
+    *(result + 0xec) = 0
+    __builtin_memset(result + 0xf8, 0, 0x20)
+    *(i + 0x74) = 0
+    *(i + 0x7c) = 0
+    *(i + 0x80) = 0
+    __builtin_memset(i + 0x88, 0, 0x14)
+    *(result + 0x11c) = 0
+    *(result + 0x120) = 0
+    *(result + 0x124) = 0
+    *(i + 0x54) = 0
+    *(i + 0x5c) = 0
+    *(i + 0x64) = 0
+    *(i + 0x6c) = 0
+    *(result + 0x128) = 0
+    *(result + 0x12c) = 0
+    *(result + 0x130) = 0
+    *(i + 0xb8) = 0
+    *(i + 0xc0) = 0
+    *(result + 0x134) = 0
+    *(result + 0x138) = 0
+    *(i + 0xc4) = 0
+    *(i + 0xcc) = 0
+    *(i + 0xa0) = 0
+    *(i + 0xa8) = 0
+    *(i + 0xb0) = 0
+    *(i + 0xd0) = 0
+    *(i + 0xd4) = 0
+    *(i + 0xd8) = 0
+    __builtin_memset(result + 0x144, 0, 0x1c)
+    *(result + 0x164) = 0
+    *(result + 0x168) = 0
+    *(result + 0x16c) = 0
+    *(i + 0xfc) = 0
+    *(i + 0x104) = 0
+    *(i + 0x108) = 0
+    __builtin_memset(i + 0x110, 0, 0x14)
+    *(result + 0x170) = 0
+    *(result + 0x174) = 0
+    *(result + 0x178) = 0
+    *(result + 0x17c) = 0
+    *(result + 0x180) = 0
+    *(i + 0xdc) = 0
+    *(i + 0xe4) = 0
+    *(i + 0xec) = 0
+    *(i + 0xf4) = 0
+    *(result + 0x18c) = 0
+    *(result + 0x190) = 0
+    *(result + 0x19c) = 0
+    *(result + 0x1a0) = 0
+    result += 0x248
+    *(result - 0xa4) = 0
+    *(result - 0xb4) = 0
+    *(result - 0xb0) = 0
+    *(i + 0x140) = 0
+    *(i + 0x148) = 0
+    *(result - 0x9c) = 0
+    *(result - 0x98) = 0
+    *(result - 0x94) = 0
+    *(i + 0x14c) = 0
+    *(i + 0x154) = 0
+    *(result - 0x90) = 0
+    *(result - 0x8c) = 0
+    *(result - 0x88) = 0
+    *(result - 0x84) = 0
+    *(result - 0x80) = 0
+    *(i + 0x128) = 0
+    *(i + 0x130) = 0
+    *(i + 0x138) = 0
+    *(i + 0x158) = 0
+    *(i + 0x15c) = 0
+    *(i + 0x160) = 0
+    *(i + 0x184) = 0
+    *(i + 0x18c) = 0
+    *(i + 0x190) = 0
+    *(i + 0x198) = 0
+    __builtin_memset(result - 0x74, 0, 0x1c)
+    *(result - 0x54) = 0
+    *(result - 0x50) = 0
+    *(result - 0x4c) = 0
+    *(result - 0x48) = 0
+    *(result - 0x44) = 0
+    *(result - 0x40) = 0
+    *(i + 0x164) = 0
+    *(i + 0x16c) = 0
+    *(i + 0x174) = 0
+    *(i + 0x17c) = 0
+    *(i + 0x19c) = 0
+    *(i + 0x1a0) = 0
+    *(i + 0x1a4) = 0
+    i += 0x220
+    *(result - 0x3c) = 0
+    *(result - 0x38) = 0
+while (i s< 0x108625c)
+
+return result
